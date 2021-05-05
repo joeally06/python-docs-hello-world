@@ -1,10 +1,6 @@
 from flask import Flask
 from flask import render_template
-def method_name():
-    from flask import jinja2
-    return jinja2
 
-jinja2 = method_name()
 
 app = Flask(__name__)
 
