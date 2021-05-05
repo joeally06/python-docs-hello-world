@@ -6,6 +6,6 @@ def hello():
     return "Hello, Jose, Welcome to your first webapp!"
 
 
-@app.route("/")
+@app.route("/html")
 def index():
     return 'index.html'
