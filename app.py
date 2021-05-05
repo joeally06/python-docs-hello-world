@@ -8,4 +8,4 @@ def hello():
 
 @app.route("/html")
 def index():
-    return 'index.html'
+    return render_template ('index.html')
