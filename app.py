@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template
+form flask import jinja2
 
 app = Flask(__name__)
 
@@ -9,5 +10,5 @@ def hello():
 
 
 @app.route("/html")
-def index():
+def html():
     return render_template('index.html')
