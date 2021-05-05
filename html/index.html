@@ -1,12 +1,18 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <title>My Webpage</title>
 </head>
 <body>
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+    <ul id="navigation">
+        {% for item in navigation %}
+        <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <h1>My Webpage</h1>
+    {{ a_variable }}
+
+    {# a comment #}
 </body>
 </html>
