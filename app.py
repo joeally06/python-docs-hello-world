@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import render_template
-form flask import jinja2
+from flask import jinja2
 
 app = Flask(__name__)
 
